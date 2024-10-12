@@ -118,7 +118,7 @@ export default function SideNavigation() {
       <AppBar
         position="fixed"
         open={open}
-        style={{ backgroundColor: "#1A3636" }}
+        style={{ backgroundColor: "#344955" }}
       >
         <Toolbar>
           <IconButton
@@ -173,7 +173,7 @@ export default function SideNavigation() {
                     {
                       minWidth: 0,
                       justifyContent: "center",
-                      color: "#1A3636",
+                      color: "#344955",
                     },
                     open ? { mr: 3 } : { mr: "auto" },
                   ]}
@@ -208,7 +208,7 @@ export default function SideNavigation() {
                     {
                       minWidth: 0,
                       justifyContent: "center",
-                      color: "#1A3636",
+                      color: "#344955",
                     },
                     open ? { mr: 3 } : { mr: "auto" },
                   ]}
@@ -240,7 +240,7 @@ export default function SideNavigation() {
                   {
                     minWidth: 0,
                     justifyContent: "center",
-                    color: "#1A3636",
+                    color: "#344955",
                   },
                   open ? { mr: 3 } : { mr: "auto" },
                 ]}
