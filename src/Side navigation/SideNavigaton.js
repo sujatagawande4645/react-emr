@@ -21,6 +21,8 @@ import MailIcon from "@mui/icons-material/Mail";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp"; // Import Logout Icon
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import Badge from '@mui/material/Badge';
+import BarCharts from "../Charts/BarCharts";
+import PieCharts from "../Charts/PieCharts";
 const drawerWidth = 240;
 
 const openedMixin = (theme) => ({
@@ -257,6 +259,8 @@ export default function SideNavigation() {
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
+        <BarCharts/>
+        <PieCharts/>
       </Box>
     </Box>
   );
